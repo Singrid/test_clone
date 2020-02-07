@@ -1,0 +1,18 @@
+dataset:
+  git: https://github.com/Singrid/ml-git-test.git
+labels:
+  git: https://github.com/Singrid/ml-git-test.git
+model:
+  git: https://github.com/Singrid/ml-git-test.git
+store:
+  s3:
+    mlgit-datasets:
+      aws-credentials:
+        profile: default
+      region: us-east-1
+  s3h:
+    s3local:
+      aws-credentials:
+        profile: default
+      endpoint-url: http://127.0.0.1:9091
+      region: us-east-1
